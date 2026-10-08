@@ -28,6 +28,10 @@ Repositório criado para registrar minha evolução nos fundamentos de programa�
 * **Conceito:** Funções que retornam coleções e o conceito de imutabilidade de dados.
 * **Destaque:** Processamento de listas com `.append()` dentro de funções, retornando uma nova lista filtrada sem alterar a original.
 
+### 6.1. Filtrar Números Maiores que 10 (`Python/desafio6_1.py`)
+* **Conceito:** Prática autônoma de funções de filtragem e nomeação expressiva de variáveis (Clean Code).
+* **Destaque:** Aplicação prática de comparadores relacionais (`> 10`) com construção e retorno dinâmico de novas listas filtradas.
+
 ---
 
 ## 🛠️ Tecnologias e Ferramentas
