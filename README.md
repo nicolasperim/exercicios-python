@@ -32,6 +32,10 @@ Repositório criado para registrar minha evolução nos fundamentos de programa�
 * **Conceito:** Prática autônoma de funções de filtragem e nomeação expressiva de variáveis (Clean Code).
 * **Destaque:** Aplicação prática de comparadores relacionais (`> 10`) com construção e retorno dinâmico de novas listas filtradas.
 
+### 7. Contar Ocorrências de um Número (`Python/desafio7.py`)
+* **Conceito:** Algoritmo de busca com acumuladores em estruturas de repetição e documentação de funções via Docstrings (PEP 257 / Padrão Google).
+* **Destaque:** Implementação manual de varredura e contagem condicional de elementos em listas sem o uso de rotinas prontas (`.count()`).
+
 ---
 
 ## 🛠️ Tecnologias e Ferramentas
