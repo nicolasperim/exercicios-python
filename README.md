@@ -36,6 +36,10 @@ Repositório criado para registrar minha evolução nos fundamentos de programa�
 * **Conceito:** Algoritmo de busca com acumuladores em estruturas de repetição e documentação de funções via Docstrings (PEP 257 / Padrão Google).
 * **Destaque:** Implementação manual de varredura e contagem condicional de elementos em listas sem o uso de rotinas prontas (`.count()`).
 
+### 8. Inverter uma Lista (`Python/desafio8.py`)
+* **Conceito:** Manipulação avançada de índices em estruturas de repetição utilizando decremento.
+* **Destaque:** Inversão manual de coleções iterando de trás para frente com `range(len - 1, -1, -1)` sem utilizar `.reverse()` ou fatiamento `[::-1]`.
+
 ---
 
 ## 🛠️ Tecnologias e Ferramentas
