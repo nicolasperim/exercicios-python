@@ -40,6 +40,10 @@ Repositório criado para registrar minha evolução nos fundamentos de programa�
 * **Conceito:** Manipulação avançada de índices em estruturas de repetição utilizando decremento.
 * **Destaque:** Inversão manual de coleções iterando de trás para frente com `range(len - 1, -1, -1)` sem utilizar `.reverse()` ou fatiamento `[::-1]`.
 
+### 9. Remover Elementos Duplicados (`Python/desafio9.py`)
+* **Conceito:** Validação de unicidade e preservação de ordem de inserção em coleções.
+* **Destaque:** Filtragem condicional baseada na checagem de inclusão (`if item not in...`) para limpar repetições sem perder a ordem original dos dados.
+
 ---
 
 ## 🛠️ Tecnologias e Ferramentas
