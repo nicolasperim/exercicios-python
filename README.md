@@ -44,6 +44,10 @@ Repositório criado para registrar minha evolução nos fundamentos de programa�
 * **Conceito:** Validação de unicidade e preservação de ordem de inserção em coleções.
 * **Destaque:** Filtragem condicional baseada na checagem de inclusão (`if item not in...`) para limpar repetições sem perder a ordem original dos dados.
 
+### 10. Encontrar o Segundo Maior Número (`Python/desafio10.py`)
+* **Conceito:** Algoritmos de varredura avançados com controle duplo de variáveis de referência e condicionais em cadeia (`elif`).
+* **Destaque:** Lógica de rastreamento simultâneo do maior e segundo maior valor sem o auxílio de funções prontas de ordenação ou ordenadores nativos.
+
 ---
 
 ## 🛠️ Tecnologias e Ferramentas
