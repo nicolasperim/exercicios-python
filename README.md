@@ -1,65 +1,65 @@
 # 🐍 Exercícios de Lógica e Fundamentos em Python
 
-Repositório criado para registrar minha evolução nos fundamentos de programação e lógica com Python, aplicando boas práticas de código (Clean Code), modularização com funções e manipulação de estruturas de dados.
+Repositório criado para registrar minha evolução nos fundamentos de programação e lógica com Python, aplicando boas práticas de código (**Clean Code**), modularização com funções e manipulação de estruturas de dados.
+
+---
 
 ## 📌 Desafios Concluídos
 
-### 1. Verificador de Paridade (`Python/desafio1.py`)
-* **Conceito:** Separação da regra de negócio (função) da interface do usuário.
-* **Destaque:** Uso de retornos booleanos (`True`/`False`) em vez de mensagens diretas, tornando a função reutilizável.
+### 🟢 Módulo 1: Fundamentos, Controle de Fluxo e Funções
 
-### 2. Calculadora de Média Escolar (`Python/desafio2.py`)
-* **Conceito:** Passagem de listas como parâmetros em funções.
-* **Destaque:** Implementação dinâmica utilizando `sum()` e `len()`, permitindo calcular médias para qualquer quantidade de notas sem alterar a estrutura da função.
+1. **Verificador de Paridade** (`Python/desafio01.py`)
+   - **Conceito:** Separação da regra de negócio (função) da interface do usuário.
+   - **Destaque:** Uso de retornos booleanos (`True` / `False`) em vez de mensagens diretas, tornando a função reutilizável.
 
-### 3. Maior Valor da Lista (`Python/desafio3.py`)
-* **Conceito:** Algoritmo de busca e comparação em estruturas de repetição (`for`).
-* **Destaque:** Construção da lógica de comparação iterativa mantendo um valor de referência (`lista[0]`), sem o uso de funções prontas como `max()`.
+2. **Calculadora de Média Escolar** (`Python/desafio02.py`)
+   - **Conceito:** Passagem de listas como parâmetros em funções.
+   - **Destaque:** Implementação dinâmica utilizando `sum()` e `len()`, permitindo calcular médias para qualquer quantidade de notas sem alterar a estrutura da função.
 
-### 4. Contagem Regressiva (`Python/desafio4.py`)
-* **Conceito:** Laços de repetição com decremento utilizando a função `range()`.
-* **Destaque:** Controle de fluxo reverso e intervalo de passos negativos no `for`.
+3. **Maior Valor da Lista** (`Python/desafio03.py`)
+   - **Conceito:** Algoritmo de busca e comparação em estruturas de repetição (`for`).
+   - **Destaque:** Construção da lógica de comparação iterativa mantendo um valor de referência (`lista[0]`), sem o uso de funções prontas como `max()`.
 
-### 5. Sistema de Autenticação com Tentativas (`Python/desafio5.py`)
-* **Conceito:** Estrutura condicional `for...else` do Python e Clean Code em validações.
-* **Destaque:** Simplificação de retorno booleano direto em expressões de comparação sem `if/else` redundante, combinado com limite de tentativas.
+4. **Contagem Regressiva** (`Python/desafio04.py`)
+   - **Conceito:** Laços de repetição com decremento utilizando a função `range()`.
+   - **Destaque:** Controle de fluxo reverso e intervalo de passos negativos no `for`.
 
-### 6. Filtrar Números Pares de uma Lista (`Python/desafio6.py`)
-* **Conceito:** Funções que retornam coleções e o conceito de imutabilidade de dados.
-* **Destaque:** Processamento de listas com `.append()` dentro de funções, retornando uma nova lista filtrada sem alterar a original.
+5. **Soma de Números Pares num Intervalo** (`Python/desafio05.py`)
+   - **Conceito:** Acumulação de valores e verificação de condições com operador resto (`%`).
+   - **Destaque:** Filtragem e soma acumulativa dentro de laços de repetição.
 
-### 6.1. Filtrar Números Maiores que 10 (`Python/desafio6_1.py`)
-* **Conceito:** Prática autônoma de funções de filtragem e nomeação expressiva de variáveis (Clean Code).
-* **Destaque:** Aplicação prática de comparadores relacionais (`> 10`) com construção e retorno dinâmico de novas listas filtradas.
+6. **Gerador de Tabuada** (`Python/desafio06.py`)
+   - **Conceito:** Interatividade com o usuário e laços para geração de sequências matemáticas.
+   - **Destaque:** Formatação limpa de saídas estruturadas.
 
-### 7. Contar Ocorrências de um Número (`Python/desafio7.py`)
-* **Conceito:** Algoritmo de busca com acumuladores em estruturas de repetição e documentação de funções via Docstrings (PEP 257 / Padrão Google).
-* **Destaque:** Implementação manual de varredura e contagem condicional de elementos em listas sem o uso de rotinas prontas (`.count()`).
+7. **Inversor de String Manual** (`Python/desafio07.py`)
+   - **Conceito:** Manipulação iterativa de sequências e strings.
+   - **Destaque:** Reversão realizada manualmente via laço `for`, evitando *slicing* direto (`[::-1]`) para consolidar o entendimento algorítmico.
 
-### 8. Inverter uma Lista (`Python/desafio8.py`)
-* **Conceito:** Manipulação avançada de índices em estruturas de repetição utilizando decremento.
-* **Destaque:** Inversão manual de coleções iterando de trás para frente com `range(len - 1, -1, -1)` sem utilizar `.reverse()` ou fatiamento `[::-1]`.
+8. **Contador de Vogais** (`Python/desafio08.py`)
+   - **Conceito:** Busca de subelementos em strings e conversão para caixa baixa (`.lower()`).
+   - **Destaque:** Trata diferenças entre maiúsculas/minúsculas e itera diretamente sobre os caracteres.
 
-### 9. Remover Elementos Duplicados (`Python/desafio9.py`)
-* **Conceito:** Validação de unicidade e preservação de ordem de inserção em coleções.
-* **Destaque:** Filtragem condicional baseada na checagem de inclusão (`if item not in...`) para limpar repetições sem perder a ordem original dos dados.
+9. **Fatorial de um Número** (`Python/desafio09.py`)
+   - **Conceito:** Estrutura de repetição para produto acumulado.
+   - **Destaque:** Tratamento de casos especiais como $0! = 1$ e $1! = 1$.
 
-### 10. Encontrar o Segundo Maior Número (`Python/desafio10.py`)
-* **Conceito:** Algoritmos de varredura avançados com controle duplo de variáveis de referência e condicionais em cadeia (`elif`).
-* **Destaque:** Lógica de rastreamento simultâneo do maior e segundo maior valor sem o auxílio de funções prontas de ordenação ou ordenadores nativos.
+10. **Busca do Segundo Maior Valor** (`Python/desafio10.py`)
+    - **Conceito:** Algoritmo de ordenação/varredura sem o uso de `sort()` ou `max()`.
+    - **Destaque:** Raciocínio lógico para rastrear simultaneamente o maior e o segundo maior elemento em uma única passagem.
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas
+### 🟡 Módulo 2: Estruturas de Dados Intermediárias (Dicionários)
 
-* **Linguagem:** Python 3
-* **IDE:** Visual Studio Code
-* **Controle de Versão:** Git & GitHub
+11. **Registro e Validação de Boletim de Aluno** (`Python/desafio11.py`)
+    - **Conceito:** Manipulação de Dicionários e validação de dados com laço `while`.
+    - **Destaque:** Mapeamento de chave-valor (`nome`, `nota`), validação estrita do intervalo da nota (`0.0` a `10.0`) com operador lógico `or` e modularização da verificação de aprovação.
 
 ---
 
-## 🚀 Como Executar
-
-Clone o repositório:
-```bash
-git clone [https://github.com/nicolasperim/exercicios-python.git](https://github.com/nicolasperim/exercicios-python.git)
+## 🛠️ Tecnologias e Boas Práticas
+- **Linguagem:** Python 3
+- **Padrão de Código:** PEP 8
+- **Estilo de Documentação:** Google Style Docstrings
+- **Controle de Versão:** Git & GitHub
