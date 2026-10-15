@@ -42,7 +42,7 @@ Repositório criado para registrar minha evolução nos fundamentos de programa�
 
 9. **Fatorial de um Número** (`Python/desafio09.py`)
    - **Conceito:** Estrutura de repetição para produto acumulado.
-   - **Destaque:** Tratamento de casos especiais como $0! = 1$ e $1! = 1$.
+   - **Destaque:** Tratamento de casos especiais como 0! = 1 e 1! = 1.
 
 10. **Busca do Segundo Maior Valor** (`Python/desafio10.py`)
     - **Conceito:** Algoritmo de ordenação/varredura sem o uso de `sort()` ou `max()`.
@@ -55,6 +55,10 @@ Repositório criado para registrar minha evolução nos fundamentos de programa�
 11. **Registro e Validação de Boletim de Aluno** (`Python/desafio11.py`)
     - **Conceito:** Manipulação de Dicionários e validação de dados com laço `while`.
     - **Destaque:** Mapeamento de chave-valor (`nome`, `nota`), validação estrita do intervalo da nota (`0.0` a `10.0`) com operador lógico `or` e modularização da verificação de aprovação.
+
+12. **Cadastro Múltiplo e Relatório de Turma** (`Python/desafio12.py`)
+    - **Conceito:** Utilização de listas compostas por dicionários e formatação avançada de saídas no terminal.
+    - **Destaque:** Implementação de alinhamento de colunas com f-strings (`<` e `>`), cálculo dinâmico da média geral da turma e validação de fluxo de cadastro contínuo.
 
 ---
 
