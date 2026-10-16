@@ -60,6 +60,10 @@ Repositório criado para registrar minha evolução nos fundamentos de programa�
     - **Conceito:** Utilização de listas compostas por dicionários e formatação avançada de saídas no terminal.
     - **Destaque:** Implementação de alinhamento de colunas com f-strings (`<` e `>`), cálculo dinâmico da média geral da turma e validação de fluxo de cadastro contínuo.
 
+13. **Cadastro de Jogador de Futebol** (`Python/desafio13.py`)
+    - **Conceito:** Aninhamento de estruturas (lista dentro de um dicionário) e percurso com `enumerate()`.
+    - **Destaque:** Armazenamento dinâmico de gols por partida associados a um dicionário, uso da função `sum()` para totalização e exibição detalhada de desempenho individual.
+
 ---
 
 ## 🛠️ Tecnologias e Boas Práticas
